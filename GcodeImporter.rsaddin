@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RobotStudioAddIn xmlns="urn:abb-robotics-robotstudio-addin"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="urn:abb-robotics-robotstudio-addin file:///C:\Program%20Files%20(x86)\ABB%20Industrial%20IT\Robotics%20IT\SDK\RobotStudio%20SDK%205.60\RobotStudioAddin.xsd"
+                  autoLoad="false">
+
+  <!--DisplayName>My Add-In</DisplayName-->
+  <!--DisplayVersion>1.0.0.1</DisplayVersion-->
+  <!--Description>My Add-In description</Description-->
+  <!--Image>MyAddin.png</Image-->
+  <!--StartPage show="false"-->
+  
+  <AddInType>General</AddInType>
+
+  <Assembly>
+    <FileName>GCodeImporter.dll</FileName>
+    <Path>c:\users\sejowib\documents\visual studio 2012\Projects\SupportSampleRobotStudioAddin\SupportSampleRobotStudioAddin\bin\Debug</Path>
+    <Path>c:\users\sejowib\documents\visual studio 2012\Projects\SupportSampleRobotStudioAddin\SupportSampleRobotStudioAddin\bin\Release</Path>
+  </Assembly>
+
+  <Dependencies>Station</Dependencies>
+
+</RobotStudioAddIn>

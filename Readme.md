@@ -12,6 +12,4 @@ This is the original code from my master thesis in 2016.
 
 ----
 
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job.
-
 [df1]: <http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1034182&dswid=4335>

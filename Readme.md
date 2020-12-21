@@ -1,5 +1,5 @@
 
-G-code to Rapid translator for RobotStudio
+## G-code to Rapid translator for RobotStudio
 
 This is the original code from my master thesis in 2016.
 

@@ -3,7 +3,7 @@ G-code to Rapid translator for RobotStudio
 
 This is the original code from my master thesis in 2016.
 
-[Link to the paper][df1]http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1034182&dswid=4335
+[Link to the paper][df1]
 
 ### Todos
 

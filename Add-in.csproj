@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -10,8 +10,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SupportSampleRobotStudioAddin</RootNamespace>
     <AssemblyName>SupportSampleRobotStudioAddin</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -36,32 +37,34 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ABB.Robotics.Controllers.PC">
-      <HintPath>..\..\..\..\..\Program Files (x86)\ABB Industrial IT\Robotics IT\RobotStudio 5.61\Bin\ABB.Robotics.Controllers.PC.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\ABB\SDK\RobotStudio 2020 SDK\ABB.Robotics.Controllers.PC.dll</HintPath>
     </Reference>
     <Reference Include="ABB.Robotics.Math">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(ProgramFiles)\ABB Industrial IT\Robotics IT\SDK\RobotStudio SDK 5.60\ABB.Robotics.Math.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\..\..\..\Program Files (x86)\ABB\SDK\RobotStudio 2020 SDK\ABB.Robotics.Math.dll</HintPath>
     </Reference>
     <Reference Include="ABB.Robotics.RobotStudio">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(ProgramFiles)\ABB Industrial IT\Robotics IT\SDK\RobotStudio SDK 5.60\ABB.Robotics.RobotStudio.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\..\..\..\Program Files (x86)\ABB\SDK\RobotStudio 2020 SDK\ABB.Robotics.RobotStudio.dll</HintPath>
     </Reference>
     <Reference Include="ABB.Robotics.RobotStudio.Controllers">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(ProgramFiles)\ABB Industrial IT\Robotics IT\SDK\RobotStudio SDK 5.60\ABB.Robotics.RobotStudio.Controllers.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\..\..\..\Program Files (x86)\ABB\SDK\RobotStudio 2020 SDK\ABB.Robotics.RobotStudio.Controllers.dll</HintPath>
+    </Reference>
+    <Reference Include="ABB.Robotics.RobotStudio.Documents">
+      <HintPath>..\..\..\..\..\Program Files (x86)\ABB\SDK\RobotStudio 2020 SDK\ABB.Robotics.RobotStudio.Documents.dll</HintPath>
     </Reference>
     <Reference Include="ABB.Robotics.RobotStudio.Environment">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(ProgramFiles)\ABB Industrial IT\Robotics IT\SDK\RobotStudio SDK 5.60\ABB.Robotics.RobotStudio.Environment.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\..\..\..\Program Files (x86)\ABB\SDK\RobotStudio 2020 SDK\ABB.Robotics.RobotStudio.Environment.dll</HintPath>
     </Reference>
     <Reference Include="ABB.Robotics.RobotStudio.Stations">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(ProgramFiles)\ABB Industrial IT\Robotics IT\SDK\RobotStudio SDK 5.60\ABB.Robotics.RobotStudio.Stations.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\..\..\..\Program Files (x86)\ABB\SDK\RobotStudio 2020 SDK\ABB.Robotics.RobotStudio.Stations.dll</HintPath>
+    </Reference>
+    <Reference Include="ABB.Robotics.RobotStudio.Stations.Forms">
+      <HintPath>..\..\..\..\..\Program Files (x86)\ABB\SDK\RobotStudio 2020 SDK\ABB.Robotics.RobotStudio.Stations.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="ABB.Robotics.RobotStudio.UI">
+      <HintPath>..\..\..\..\..\Program Files (x86)\ABB\SDK\RobotStudio 2020 SDK\ABB.Robotics.RobotStudio.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="RobotStudio.Resources">
+      <HintPath>..\..\..\..\..\Program Files (x86)\ABB\SDK\RobotStudio 2020 SDK\RobotStudio.Resources.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

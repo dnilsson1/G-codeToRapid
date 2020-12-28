@@ -1,19 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
-using ABB.Robotics.Controllers;
-using ABB.Robotics.Controllers.Discovery;
-using ABB.Robotics.Controllers.RapidDomain;
 using ABB.Robotics.RobotStudio;
+using ABB.Robotics.Controllers;
 using ABB.Robotics.RobotStudio.Stations;
-using SupportSampleRobotStudioAddin;
 
 namespace GcodeImporter
 {
@@ -29,7 +20,7 @@ namespace GcodeImporter
         string RotXvar = "0";
         string RotYvar = "0";
         string RotZvar = "0";
-            
+
         Controller controller = default(Controller);                              //reference to virtual controller of active system in RobotStudio
         #endregion
 
@@ -204,7 +195,7 @@ namespace GcodeImporter
         }
         #endregion
 
-#region update the resolution ComboBox
+        #region update the resolution ComboBox
         private void UpdateResolutionList()
         {
             try
@@ -226,7 +217,7 @@ namespace GcodeImporter
                 Logger.AddMessage(new LogMessage(exception.StackTrace, LogMessageSeverity.Error));
             }
         }
-#endregion
+        #endregion
 
         #region event handlers
         /// <summary>
@@ -412,7 +403,7 @@ namespace GcodeImporter
                 label4.Visible = false;
                 label5.Visible = false;
                 label6.Visible = false;
-                
+
                 label8.Visible = false;
                 label9.Visible = false;
                 label10.Visible = false;
@@ -434,7 +425,7 @@ namespace GcodeImporter
                 label8.Visible = true;
                 label9.Visible = true;
                 label10.Visible = true;
-               
+
             }
         }
 
@@ -454,7 +445,7 @@ namespace GcodeImporter
         }
 
         private void RotX_TextChanged(object sender, EventArgs e)
-        {             
+        {
             RotXvar = RotX.Text;
         }
 

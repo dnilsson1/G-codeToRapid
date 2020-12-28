@@ -1,16 +1,15 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SupportSampleRobotStudioAddin")]
+[assembly: AssemblyTitle("G-Code to rapid converter")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("SupportSampleRobotStudioAddin")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2014")]
+[assembly: AssemblyCompany("None")]
+[assembly: AssemblyProduct("G-Code to rapid converter")]
+[assembly: AssemblyCopyright("Daniel Nilsson")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

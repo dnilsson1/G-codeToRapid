@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using ABB.Robotics.RobotStudio;
 using ABB.Robotics.Controllers;
 using ABB.Robotics.RobotStudio.Stations;
+using ABB.Robotics.Controllers.Discovery;
 
 namespace GcodeImporter
 {

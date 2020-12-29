@@ -49,9 +49,9 @@ namespace GcodeImporter
             rbnGroupCoordinateFile = new RibbonGroup("rgCF", "File Import");
             btnCoordinateFileImport = new CommandBarButton("CFI_button", "G-Code Importer");
 
-            btnCoordinateFileImport.Image = new System.Drawing.Bitmap("TestLogo.bmp");
+            // btnCoordinateFileImport.Image = new System.Drawing.Bitmap("TestLogo.bmp");
 
-            btnCoordinateFileImport.DefaultEnabled = false;
+            btnCoordinateFileImport.DefaultEnabled = true;
             btnCoordinateFileImport.HelpText = "For converting various coordinate files to RobotStudio paths.";
             btnCoordinateFileImport.ExecuteCommand += new ExecuteCommandEventHandler(btnCoordinateFileImport_ExecuteCommand);
             rbnGroupCoordinateFile.Controls.Add(btnCoordinateFileImport);

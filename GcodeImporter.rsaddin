@@ -14,8 +14,8 @@
 
   <Assembly>
     <FileName>GCodeImporter.dll</FileName>
-    <Path>C:\Users\sedanil1\source\repos\G-codeToRapid3\Debug</Path>
-    <Path>C:\Users\sedanil1\source\repos\G-codeToRapid3\Release</Path>
+    <Path>C:\Users\sedanil1\source\repos\G-codeToRapid3\bin\Debug</Path>
+    <Path>C:\Users\sedanil1\source\repos\G-codeToRapid3\bin\Release</Path>
   </Assembly>
 
   <Dependencies>Station</Dependencies>

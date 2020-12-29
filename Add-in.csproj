@@ -8,8 +8,8 @@
     <ProjectGuid>{26C08F38-877E-49F6-A950-70C61D2543AD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SupportSampleRobotStudioAddin</RootNamespace>
-    <AssemblyName>SupportSampleRobotStudioAddin</AssemblyName>
+    <RootNamespace>GCodeImporter</RootNamespace>
+    <AssemblyName>GCodeImporter</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
     <StartAction>Program</StartAction>
     <StartProgram>$(ProgramFiles)\ABB Industrial IT\Robotics IT\RobotStudio 5.60\Bin\RobotStudio.exe</StartProgram>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>TestLogo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ABB.Robotics.Controllers.PC">
@@ -106,9 +109,12 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestLogo.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>XCopy /y "$(TargetPath)" "C:\Program Files (x86)\Common Files\ABB Industrial IT\Robotics IT\RobotStudio\Addins"</PostBuildEvent>
+    <PostBuildEvent>XCopy /y "C:\Users\sedanil1\source\repos\G-codeToRapid3\Debug" "%25ProgramFiles(x86)%25\ABB\RobotStudio 2020\Bin\Addins"</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
